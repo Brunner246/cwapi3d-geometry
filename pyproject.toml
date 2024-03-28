@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = ["MichaelBrunner <brunner@cadwork.swiss>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cwapi3d = "^30.443.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
